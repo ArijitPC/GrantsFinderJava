@@ -47,7 +47,8 @@ public class GrantsStepDefinitions {
     }
 
     @When("the user selects the business checkboxes")
-    public void theUserSelectsTheBusinessCheckboxes() {
+    public void theUserSelectsTheBusinessCheckboxes() throws InterruptedException {
+        grantsPage.selectBusinessCheckbox();
     }
 
 
