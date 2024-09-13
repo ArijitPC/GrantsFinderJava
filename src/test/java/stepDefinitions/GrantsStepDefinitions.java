@@ -20,8 +20,6 @@ public class GrantsStepDefinitions {
         System.setProperty("webdriver.chrome.driver", "src/Driver/chromedriver");
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
-
-
         grantsPage = new GrantsPage(driver);
     }
 
