@@ -31,6 +31,7 @@ public class GrantsPage {
     public void selectBusinessCheckbox() throws InterruptedException {
 
 
+        
        JavascriptExecutor js = (JavascriptExecutor) driver;
        js.executeScript("arguments[0].scrollIntoView(true);", driver.findElement(checkbox_business));
        js.executeScript("arguments[0].click();", driver.findElement(checkbox_business));
